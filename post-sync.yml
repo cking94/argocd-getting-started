@@ -14,6 +14,6 @@ spec:
         args:
         - /bin/sh
         - -ec
-        - curl http://spring-petclinic:8080
+        - curl http://10.101.222.95:8080/
       restartPolicy: Never
   backoffLimit: 0
