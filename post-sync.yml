@@ -14,6 +14,6 @@ spec:
         args:
         - /bin/sh
         - -ec
-        - curl http://10.101.222.95:8080/
+        - curl http://10.101.222.95:8080/ && curl http://10.101.222.95:8080/oups
       restartPolicy: Never
   backoffLimit: 0
